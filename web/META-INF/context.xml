@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ClubDB">
+    <Resource name="jdbc/clubdb" auth="Container"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/club"
+    username="root"
+    password="Bigbagnan1"
+    maxActive="100"
+    maxIdle="30"
+    maxWait="10000"
+    logAbandoned="false"
+    removeAbondoned="true"
+    removeAbandonedTimeout="60"
+    type="javax.sql.DataSource" />
+</Context>
